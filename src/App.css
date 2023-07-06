@@ -2,9 +2,9 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Main-logo {
+  display: block;
+  max-width: 100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
