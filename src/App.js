@@ -1,4 +1,3 @@
-import main from 'images/main.jpg';
 import './App.css';
 
 function App() {
