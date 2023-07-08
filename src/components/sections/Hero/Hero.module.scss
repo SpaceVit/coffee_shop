@@ -15,7 +15,52 @@
 height: 537px;
 }
 
+.heroHeader{
+  padding-top: 125px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 42px;
+  display: flex;
+}
+
+.heroTitle {
+  width: 400px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Sansita";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140.1%;
+  letter-spacing: .5rem;
+  text-transform: uppercase;
+  padding-top: 100px ;
+  margin-right: auto;
+}
+
+.heroText {
+  color: #FFF;
+  font-family: "Anonymous Pro";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140.1%;
+  text-transform: uppercase;
+}
+
+.heroText + .heroText  {
+  margin-top: 152px;
+}
+
+.heroText:nth-child(1) {
+  padding-left: 100px;
+}
+
 .heroDownContainer {
   background: linear-gradient(180deg, rgba(192, 105, 54, 0.00) 0%, #C06936 100%);
   height: 423px;
+  padding-top: 5px;
+  padding-right: 325px;
+  display: flex;
+  justify-content: flex-end;
 }
