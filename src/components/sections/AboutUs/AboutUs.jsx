@@ -3,8 +3,8 @@ import styles from './AboutUs.module.scss';
 
 const AboutUs = () => {
   return (
-    <div className={styles.aboutUsContainer}>
-      <p>ABOUT US</p>
+    <div id="About" className={styles.aboutUsContainer}>
+      <p id="Contacts">ABOUT US</p>
     </div>
   );
 };

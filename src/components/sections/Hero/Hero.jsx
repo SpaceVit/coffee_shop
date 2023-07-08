@@ -9,13 +9,19 @@ const Hero = () => {
           <header className={styles.heroHeader}>
             <h1 className={styles.heroTitle}>Coffe shop</h1>
             <div className={styles.heroTextWrapper}>
-              <p className={styles.heroText}> Our coffe</p>
-              <p className={styles.heroText}> About us</p>
+              <a href="#Our" className={styles.heroText}>
+                Our coffee
+              </a>
+              <a href="#About" className={styles.heroText}>
+                About us
+              </a>
             </div>
           </header>
         </div>
         <div className={styles.heroDownContainer}>
-          <p className={styles.heroText}> Contats</p>
+          <a href="#Contacts" className={styles.heroText}>
+            Contacts
+          </a>
         </div>
       </div>
     </div>
