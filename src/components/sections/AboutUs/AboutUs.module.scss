@@ -1,18 +1,33 @@
+@import 'styles/_variables.scss';
+
 .aboutUsContainer {
   height: 960px;
- background: #C06936;
- color: white;
- padding: 0 5.56%;
- h2{
-  font-family: Sansita;
-  text-transform: uppercase;
-  font-size: 64px;
-  margin-bottom: 64px;
+  background: #C06936;
+  color: white;
+  padding: 0 5.56%;
+  h2{
+    font-family: Sansita;
+    font-size: 24px;
+    line-height: 140.1%;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    @media screen and (min-width: $min_tablet){
+      font-size: 32px;
+    }
+    @media screen and (min-width: $min_desktop){
+      font-size: 64px;
+      margin-bottom: 64px;
+    }
+  }
+  p{
+  font-size: 16px;
   line-height: 140.1%;
- }
- p{
-  font-size: 32px;
-  line-height: 140.1%;
   text-transform: uppercase;
- }
+    @media screen and (min-width:$min_tablet){
+      font-size: 20px;
+    }
+    @media screen and (min-width:$desktop){
+      font-size: 32px;
+    }
+  }
 }
