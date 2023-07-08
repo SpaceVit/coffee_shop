@@ -5,6 +5,18 @@
   background-position: center;
   width: 100vw;
   height: 960px;
+  @media screen and (max-width: 747px) {
+    background: url(../../../images/main-tablet.jpg);
+    height: 519px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  @media screen and (max-width: 360px) {
+    background: url(../../../images/main-mob.jpg);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
 }
 
 .heroContainer{
@@ -13,9 +25,135 @@
 
 .heroUpContainer {
 height: 537px;
+@media screen and (max-width: 747px) {
+  height: 340px;
+  }
+    @media screen and (max-width: 360px) {
+        height: 140px;
+      }
+
+}
+
+.heroHeader{
+  padding-top: 125px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 42px;
+  display: flex;
+  @media screen and (max-width: 747px) {
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 21px;
+    }
+   @media screen and (max-width: 360px) {
+      padding-top: 25px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 10px;
+    }
+}
+
+.heroTitle {
+  width: 400px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Sansita";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140.1%;
+  letter-spacing: .5rem;
+  text-transform: uppercase;
+  padding-top: 100px ;
+  margin-right: auto;
+  @media screen and (max-width: 747px){
+   font-size: 48px;
+   width: 250px;
+  padding-top: 60px;
+  }
+    @media screen and (max-width: 360px) {
+      font-size: 28px;
+      width: 140px;
+      padding-top: 0;
+    }
+}
+
+.heroText {
+  display: block;
+  color: #FFF;
+  font-family: "Anonymous Pro";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140.1%;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition-duration: 1s;
+  transition-property: transform;
+  
+  transition: background-color .5s cubic-bezier(.4, 0, .2, 1);
+  cursor: pointer;
+  @media screen and (max-width: 747px) {
+    font-size: 24px;
+     
+    }
+  @media screen and (max-width: 360px) {
+    font-size: 16px;
+   }
+}
+
+.heroText:hover,
+.heroText:focus
+ {
+  color: rgb(245, 79, 2);
+    transform: rotate(4deg);
+}
+
+.heroText + .heroText  {
+  margin-top: 152px;
+  @media screen and (max-width: 747px) {
+      margin-top: 80px;
+    }
+  @media screen and (max-width: 360px) {
+      margin-top: 21px;
+    }
+}
+
+.heroText:nth-child(1) {
+  padding-left: 100px;
+  @media screen and (min-width: 361px) and (max-width: 450px) {
+      padding-left: 25px;
+    }
+  @media screen and (max-width: 360px) {
+      padding-left: 40px;
+      padding-top: 30px;
+    }
 }
 
 .heroDownContainer {
   background: linear-gradient(180deg, rgba(192, 105, 54, 0.00) 0%, #C06936 100%);
   height: 423px;
+  padding-top: 5px;
+  padding-right: 325px;
+  display: flex;
+  justify-content: flex-end;
+  @media screen and (max-width: 747px) {
+      padding-right: 275px;
+  
+    }
+        @media screen and (min-width: 361px) and (max-width: 450px) {
+          padding-right: 160px;
+        }
+        @media screen and (max-width: 360px) {
+          padding-right:100px;           
+        }
+  
 }
+.heroDownContainer > .heroText {
+  @media screen and (max-width: 360px) {
+      padding-top: 0;
+      }
+
+}
+
