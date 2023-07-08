@@ -5,6 +5,7 @@
   background-position: center;
   width: 100vw;
   height: 960px;
+  
   @media screen and (max-width: 747px) {
     background: url(../../../images/main-tablet.jpg);
     height: 519px;
@@ -67,6 +68,7 @@ height: 537px;
   text-transform: uppercase;
   padding-top: 100px ;
   margin-right: auto;
+   
   @media screen and (max-width: 747px){
    font-size: 48px;
    width: 250px;
@@ -91,7 +93,6 @@ height: 537px;
   white-space: nowrap;
   transition-duration: 1s;
   transition-property: transform;
-  
   transition: background-color .5s cubic-bezier(.4, 0, .2, 1);
   cursor: pointer;
   @media screen and (max-width: 747px) {
