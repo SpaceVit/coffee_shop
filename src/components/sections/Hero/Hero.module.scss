@@ -1,0 +1,21 @@
+.heroSection {
+  background: url(../../../images/main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 960px;
+}
+
+.heroContainer{
+ color: white;
+}
+
+.heroUpContainer {
+height: 537px;
+}
+
+.heroDownContainer {
+  background: linear-gradient(180deg, rgba(192, 105, 54, 0.00) 0%, #C06936 100%);
+  height: 423px;
+}
