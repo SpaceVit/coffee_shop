@@ -11,7 +11,6 @@ const SocialLinkItem = ({socialName,path,pathIcon }) => {
             <svg className={styles.iconSocialLink}>
                 <use href={pathIcon} />
             </svg>
-
         </a>
     </li>)
 }

@@ -2,18 +2,24 @@
 
 .socialLinkItem{
     margin-right: 24px;
-    &:hover,
-        &:focus {
-            color: rgb(245, 79, 2);
-        }
+    // &:hover,
+    //     &:focus {
+    //         color: rgb(245, 79, 2);
+    //     }
     @media screen and (min-width:$min_desktop) {
     margin-right: 64px;
     }
 }
+
 .iconSocialLink{
     width:32px;
     height:32px;
     fill:currentColor;
+    transition: 250ms;
+    &:hover,
+    &:focus {
+        transform: scale(1.3);
+    }
     @media screen and (min-width: $min_desktop){
     width: 48px;
     height:48px;
