@@ -1,10 +1,11 @@
 @import 'styles/_variables.scss';
 
 .aboutUsContainer {
-  height: 960px;
+  height: auto;
   background: #C06936;
   color: white;
   padding: 0 4.87%;
+  padding-top: 80px;
   @media screen and (min-width:$min_tablet){
     padding: 0 2.15%;
   }

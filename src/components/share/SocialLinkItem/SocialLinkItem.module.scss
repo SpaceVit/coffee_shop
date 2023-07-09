@@ -1,0 +1,21 @@
+@import "styles/_variables.scss";
+
+.socialLinkItem{
+    margin-right: 24px;
+    &:hover,
+        &:focus {
+            color: rgb(245, 79, 2);
+        }
+    @media screen and (min-width:$min_desktop) {
+    margin-right: 64px;
+    }
+}
+.iconSocialLink{
+    width:32px;
+    height:32px;
+    fill:currentColor;
+    @media screen and (min-width: $min_desktop){
+    width: 48px;
+    height:48px;
+    }
+}
