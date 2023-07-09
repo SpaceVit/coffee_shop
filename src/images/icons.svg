@@ -17,7 +17,7 @@
 <symbol id="icon-coffee3" viewBox="0 0 32 32">
 <path fill="none" stroke="#ffebb2" style="stroke: var(--color1, #ffebb2)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7297" d="M22.667 12v12c0 1.061-0.421 2.078-1.172 2.828s-1.768 1.172-2.828 1.172h-8c-1.061 0-2.078-0.421-2.828-1.172s-1.172-1.767-1.172-2.828v-12h16z"></path>
 <path fill="none" stroke="#ffebb2" style="stroke: var(--color1, #ffebb2)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7297" d="M22.667 18.667h4c0.733 0 1.333-0.6 1.333-1.333v-4c0-0.733-0.6-1.333-1.333-1.333h-4"></path>
-<path fill="#ffebb2" style="fill: var(--color1, #ffebb2)" opacity="0.4" d="M32 2.667h-32v6.667h32v-6.667z"></path>
+
 </symbol>
 <symbol id="icon-mail" viewBox="0 0 32 32">
 <path fill="none" stroke="#fff" style="stroke: var(--color2, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M5.333 5.333h21.333c1.467 0 2.667 1.2 2.667 2.667v16c0 1.467-1.2 2.667-2.667 2.667h-21.333c-1.467 0-2.667-1.2-2.667-2.667v-16c0-1.467 1.2-2.667 2.667-2.667z"></path>
