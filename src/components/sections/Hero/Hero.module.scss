@@ -137,15 +137,17 @@
 }
 
 .heroDownContainer {
-  background: linear-gradient(180deg, rgba(192, 105, 54, 0) 0%, #c06936 100%);
+  background: linear-gradient(180deg, rgba(192, 105, 54, 0) 0%, #c06936 75%);
   height: 423px;
   padding-right: 100px;
   @media screen and (min-width: $min_tablet) {
     padding-right: 258px;
+    background: linear-gradient(180deg, rgba(192, 105, 54, 0) 0%, #c06936 40%);
   }
 
   @media screen and (min-width: $min_desktop) {
     padding-right: 568px;
+    background: linear-gradient(180deg, rgba(192, 105, 54, 0) 0%, #c06936 100%);
   }
 }
 
