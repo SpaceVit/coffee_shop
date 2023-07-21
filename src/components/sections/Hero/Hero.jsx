@@ -7,7 +7,7 @@ const Hero = () => {
       <div className={styles.heroContainer}>
         <div className={styles.heroUpContainer}>
           <header className={styles.heroHeader}>
-            <h1 className={styles.heroTitle}>Coffe shop</h1>
+            <h1 className={styles.heroTitle}>Coffee shop</h1>
             <div className={styles.heroTextWrapper}>
               <a href="#Our" className={styles.heroText}>
                 Our coffee
